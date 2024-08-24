@@ -181,6 +181,5 @@
         </div>
     </div>
 
-
-    <footer class="h-20"></footer>
+    <x-footer/>
 </x-app-layout>
