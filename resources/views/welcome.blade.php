@@ -97,7 +97,7 @@
         </section>
 
         <section class="mt-24">
-            <div class="flex gap-4">
+            <div class="flex flex-col md:flex-row gap-4 px-6">
                 <div class="basis-1/2 space-y-4">
                     <div class="space-y-3">
                         <div class="text-lg text-[#FF0000]">Tentang Kami</div>
@@ -155,7 +155,7 @@
             <div class="h-40 relative" style="--image-url: url({{asset('images/parallax.jpeg')}})">
                 <div class="w-full h-full brightness-50 bg-fixed bg-center bg-[image:var(--image-url)]"></div>
                 <div class="absolute inset-0 flex justify-center items-center">
-                    <p class="text-3xl text-white">Hubungi sekarang Untuk Pesan Sekarang <span class="text-[#FF0000]">+62 812 1450 8113</span> Tersedia 24/7</p>
+                    <p class="text-center md:text-xl lg:text-3xl text-white">Hubungi sekarang Untuk Pesan Sekarang <span class="text-nowrap text-[#FF0000]">+62 812 1450 8113</span> Tersedia 24/7</p>
                 </div>
             </div>
         </section>
@@ -169,10 +169,10 @@
                 <hr class="my-2 h-1 w-32 border-t-0 bg-[#FF0000] dark:bg-white/10" />
             </div>
 
-            <div class="flex flex-wrap justify-center gap-2 mt-6">
+            <div class="flex flex-wrap justify-center gap-2 md:gap-4 mt-6">
                 @for ($i = 0; $i < 10; $i++)
-                    <div class="basis-[45%] lg:basis-1/5 h-40" style="--image-url: url({{asset('images/gallery/mobil-1.jpeg')}})">
-                        <div class="w-full h-full  bg-[image:var(--image-url)]"></div>
+                    <div class="basis-[45%] md:basis-1/3 lg:basis-1/5 h-40" style="--image-url: url({{asset('images/gallery/mobil-1.jpeg')}})">
+                        <div class="w-full h-full bg-no-repeat bg-cover bg-[image:var(--image-url)]"></div>
                     </div>
                 @endfor
             </div> 
