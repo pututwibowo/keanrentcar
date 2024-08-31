@@ -7,6 +7,12 @@
     @vite(['resources/css/app.css','resources/js/app.js'])
 </head>
 <body class="">
+    <x-top-section/>
+
+    <x-navigation/>
+
     {{$slot}}
+
+    <x-footer/>
 </body>
 </html>

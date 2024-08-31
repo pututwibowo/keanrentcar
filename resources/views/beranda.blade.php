@@ -1,14 +1,11 @@
 <x-app-layout>
-    <x-top-section/>
-
-    <x-navigation/>
-
     <section class="w-full">
         <img src="{{asset('images/hero.png')}}" alt="">
     </section>
     
     <!-- Main Content -->
     <div class="container-sm mx-auto lg:px-12">
+        <!-- Keunggulan Kami -->
         <section class="mt-24">
             <div class="flex flex-col justify-center items-center gap-2 text-center">
                 <div class="text-lg text-[#FF0000]">Keunggulan Kami</div>
@@ -60,6 +57,7 @@
             </div>
         </section>
 
+        <!-- Armada Kami -->
         <section class="mt-24">
             <div class="flex flex-col justify-center items-center gap-2 text-center">
                 <div class="text-lg text-[#FF0000]">Armada Kami</div>
@@ -96,6 +94,7 @@
             </div>
         </section>
 
+        <!-- Tentang Kami -->
         <section class="mt-24">
             <div class="flex flex-col md:flex-row gap-4 px-6">
                 <div class="basis-1/2 space-y-4">
@@ -160,6 +159,7 @@
             </div>
         </section>
 
+        <!-- Galeri Kami -->
         <section class="mt-24">
             <div class="flex flex-col justify-center items-center gap-2 text-center">
                 <div class="text-lg text-[#FF0000]">Galeri Kami</div>
@@ -178,8 +178,6 @@
             </div> 
             
         </section>
-        </div>
+        
     </div>
-
-    <x-footer/>
 </x-app-layout>
